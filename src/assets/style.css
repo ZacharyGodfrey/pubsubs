@@ -38,7 +38,7 @@ body {
   padding: var(--padding);
 }
 
-h1, hr, h2, p {
+h1, hr, h2, p, aside {
   margin-block: var(--margin);
 }
 
@@ -63,4 +63,9 @@ a {
   color: var(--link);
   text-decoration-color: var(--link);
   text-underline-position: from-font;
+}
+
+aside {
+  font-size: 0.75rem;
+  text-align: right;
 }
