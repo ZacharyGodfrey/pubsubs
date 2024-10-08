@@ -1,7 +1,6 @@
 :root {
   --text:       black;
   --background: white;
-  --alternate:  hsl(215  5% 90%);
   --link:       hsl(0   60% 45%);
   --highlight:  hsl(50  90% 60%);
   --padding: 1rlh;
@@ -29,24 +28,8 @@
 :first-child { margin-block-start: 0 !important; }
 :last-child { margin-block-end: 0 !important; }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  min-height: 100svh;
-}
-
-header, main, footer {
+header, main {
   padding: var(--padding);
-}
-
-main {
-  flex: 1;
-}
-
-footer {
-  text-align: right;
-  background: var(--alternate);
 }
 
 section {
@@ -55,17 +38,14 @@ section {
   margin-inline: auto;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
+h1, h2, h3, p, hr {
   margin-block: var(--margin);
 }
 
-h1, h2, h3, h4, h5, h6, th, strong {
+h1, h2, h3 {
+  font-size: 1rem;
   font-weight: bold;
 }
-
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
 
 a {
   color: var(--text);

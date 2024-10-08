@@ -11,42 +11,18 @@
     </style>
   </head>
   <body>
-    <header>
-      <section>
-        <h1>Are Publix Chicken Tender Subs On Sale?</h1>
-      </section>
-    </header>
+    <h1>Are Publix Chicken Tender Subs On Sale?</h1>
 
-    <main>
-      {{#onSale}}
-      <section>
-        <h2>Yes!</h2>
+    {{#onSale}}
+    <h2>Yes, they are!</h2>
 
-        <p>Publix Chicken Tender Subs ARE on sale this week.</p>
-      </section>
-      {{/onSale}}
+    <p>Publix Chicken Tender Subs ARE on sale this week.</p>
+    {{/onSale}}
 
-      {{^onSale}}
-      <section>
-        <h2>No</h2>
+    {{^onSale}}
+    <h2>No, they're not.</h2>
 
-        <p>Publix Chicken Tender Subs ARE NOT on sale this week.</p>
-      </section>
-      {{/onSale}}
-    </main>
-
-    <footer>
-      <section>
-        <p>
-          <strong>
-            <a href="/">Are Publix Chicken Tender Subs On Sale?</a>
-          </strong>
-        </p>
-
-        <p>
-          <a href="https://github.com/ZacharyGodfrey/pubsubs">GitHub</a>
-        </p>
-      </section>
-    </footer>
+    <p>Publix Chicken Tender Subs ARE NOT on sale this week.</p>
+    {{/onSale}}
   </body>
 </html>
