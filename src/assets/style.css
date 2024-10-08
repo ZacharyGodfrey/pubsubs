@@ -6,7 +6,7 @@
   --padding: 1rlh;
   --margin: 2rlh;
   --contentWidth: 40rem;
-  --line: 4px;
+  --line: 0.25rem;
   font-size: 16px;
   line-height: 1.5;
   font-family: monospace;
@@ -57,6 +57,7 @@ hr {
   background: var(--primary);
   border: none;
   outline: none;
+  border-radius: calc(var(--line));
 }
 
 a {
