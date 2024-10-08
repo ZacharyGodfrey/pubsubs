@@ -2,8 +2,6 @@
 
 A simple page displaying whether or not Publix Chicken Tender Subs are on sale
 
----
-
 [![Get Data Action][scrape-image]][scrape-link] [![Netlify Build Status][build-image]][build-link]
 
 ---
