@@ -4,7 +4,7 @@
   --link:       hsl(85 75% 30%);
   --highlight:  hsl(55 75% 75%);
   --padding: 1rlh;
-  --margin: 1rlh;
+  --margin: 2rlh;
   --contentWidth: 40rem;
   --line: 2px;
   font-size: 16px;
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -66,6 +66,5 @@ a {
 }
 
 aside {
-  font-size: 0.75rem;
   text-align: right;
 }
