@@ -2,7 +2,7 @@ import { writeFile } from '../lib/file.js';
 
 const baseUrl = 'https://services.publix.com/search/productdata/productitems';
 const productId = 'd802cbbb-6c81-4fd3-a5ed-acd38895f4b2';
-const storeId = '9999';
+const storeId = '1210';
 
 const key = 'baseProductId';
 const value = 'BMO-DSB-100011';

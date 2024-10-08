@@ -13,16 +13,16 @@
   <body>
     <h1>Are Publix Chicken Tender Subs On Sale?</h1>
 
+    {{^onSale}}
+    <h2>Nope, not this week.</h2>
+
+    <p>Publix Chicken Tender Subs are {{price}} right now.</p>
+    {{/onSale}}
+
     {{#onSale}}
     <h2>Yes, they are!</h2>
 
-    <p>Publix Chicken Tender Subs ARE on sale this week.</p>
-    {{/onSale}}
-
-    {{^onSale}}
-    <h2>No, they're not.</h2>
-
-    <p>Publix Chicken Tender Subs ARE NOT on sale this week.</p>
+    <p>Publix Chicken Tender Subs are {{price}} until {{promoValidThruMsg}}.</p>
     {{/onSale}}
   </body>
 </html>

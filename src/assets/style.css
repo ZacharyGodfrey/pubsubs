@@ -28,14 +28,11 @@
 :first-child { margin-block-start: 0 !important; }
 :last-child { margin-block-end: 0 !important; }
 
-header, main {
-  padding: var(--padding);
-}
-
-section {
+body {
   width: 100%;
   max-width: var(--contentWidth);
   margin-inline: auto;
+  padding: var(--padding);
 }
 
 h1, h2, h3, p, hr {
