@@ -8,9 +8,7 @@ const template = readFile('src/assets/page.html');
 
 const data = JSON.parse(readFile('data.json'));
 
-data.price = () => {
-  return data.priceLine.match('\${\d.}+');
-}
+data.price = data.priceLine.match(/\$\d+\.*\d*/)[0];
 
 const partials = {
   favicon: readFile('src/assets/favicon.png', 'base64'),
