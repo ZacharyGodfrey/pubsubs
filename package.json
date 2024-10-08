@@ -8,6 +8,7 @@
     "build": "node ./src/build.js"
   },
   "dependencies": {
+    "fs-extra": "^9.0.1",
     "mustache": "^4.2.0"
   }
 }
