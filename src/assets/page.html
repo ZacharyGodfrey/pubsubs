@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Site Name</title>
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,{{>favicon}}">
+    <style>
+      {{>style}}
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1>
+          <a href="/">Site Name</a>
+        </h1>
+      </section>
+    </header>
+
+    <main>
+      {{#onSale}}
+      <section>
+        <h2>Yes!</h2>
+
+        <p>Publix Chicken Tender Subs ARE on sale this week.</p>
+      </section>
+      {{/onSale}}
+
+      {{^onSale}}
+      <section>
+        <h2>No</h2>
+
+        <p>Publix Chicken Tender Subs ARE NOT on sale this week.</p>
+      </section>
+      {{/onSale}}
+    </main>
+
+    <footer>
+      <section>
+        <p>
+          <strong>
+            <a href="/">Site Name</a>
+          </strong>
+        </p>
+
+        <p>
+          <a href="https://github.com/ZacharyGodfrey/pubsubs">Source Code</a>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

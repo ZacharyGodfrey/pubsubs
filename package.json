@@ -1,0 +1,13 @@
+{
+  "name": "pubsubs",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "scrape": "node ./src/scrape.js",
+    "build": "node ./src/build.js"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
