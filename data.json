@@ -16,11 +16,27 @@
   "isCatering": false,
   "isCateringAddon": false,
   "promoValidThruMsg": null,
-  "inStoreLocation": [],
-  "defaultModifierList": [],
-  "defaultModifierCalories": null,
+  "inStoreLocation": [
+    "Deli"
+  ],
+  "defaultModifierList": [
+    "9-25",
+    "12-805",
+    "5-27",
+    "6-35",
+    "10-8",
+    "10-9",
+    "8-43",
+    "183-45"
+  ],
+  "defaultModifierCalories": {
+    "Default": null,
+    "Half": null,
+    "Whole": null,
+    "Wrap": null
+  },
   "activationStatus": "O",
-  "priceLine": null,
+  "priceLine": "Starts at $8.39",
   "originalPriceLine": null,
   "onSale": false,
   "id": "d802cbbb-6c81-4fd3-a5ed-acd38895f4b2",
@@ -41,7 +57,7 @@
   },
   "itemCode": 90355,
   "shortDescription": "Hot Chicken Tenders and Choice of Cheese",
-  "storeNbr": 9999,
+  "storeNbr": 1210,
   "title": "Publix Chicken Tender Sub",
   "uiDisplayType": "CFG"
 }
