@@ -1,8 +1,8 @@
 :root {
   --text:       black;
   --background: white;
-  --link:       hsl(0   60% 45%);
-  --highlight:  hsl(50  90% 60%);
+  --link:       hsl(85 75% 30%);
+  --highlight:  hsl(55 75% 75%);
   --padding: 1rlh;
   --margin: 1rlh;
   --contentWidth: 40rem;
@@ -60,11 +60,7 @@ hr {
 }
 
 a {
-  color: var(--text);
+  color: var(--link);
   text-decoration-color: var(--link);
   text-underline-position: from-font;
-}
-
-a:hover {
-  color: var(--link);
 }
