@@ -1,11 +1,18 @@
 import { writeFile } from '../lib/file.js';
 
-const url = 'https://services.publix.com/search/productdata/productitems';
-const categoryId = 'd802cbbb-6c81-4fd3-a5ed-acd38895f4b2';
-const storeId = '9999';
+const baseUrl = 'https://services.publix.com/search/productdata/productitems';
 const productId = 'd802cbbb-6c81-4fd3-a5ed-acd38895f4b2';
-const response = await fetch(`${url}?Id=${categoryId}&StoreNbr=${storeId}`);
-const json = await response.json();
-const data = json.find(x => x.id === productId);
+const storeId = '9999';
 
-writeFile('data.json', JSON.stringify(data, null, 2));
+const key = 'baseProductId';
+const value = 'BMO-DSB-100011';
+
+const url = `${baseUrl}?Id=${productId}&StoreNbr=${storeId}`;
+const response = await fetch(url).then(res => res.json());
+const data = response.find(x => x[key] === value);
+const json = JSON.stringify(data, null, 2);
+
+console.log(`URL: ${url}`);
+console.log(`JSON: ${json}`);
+
+writeFile('data.json', json);
