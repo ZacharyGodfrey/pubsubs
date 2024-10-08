@@ -1,12 +1,12 @@
 :root {
   --text:       black;
   --background: white;
-  --link:       hsl(85 75% 30%);
+  --primary:    hsl(85 75% 30%);
   --highlight:  hsl(55 75% 75%);
   --padding: 1rlh;
   --margin: 2rlh;
   --contentWidth: 40rem;
-  --line: 2px;
+  --line: 4px;
   font-size: 16px;
   line-height: 1.5;
   font-family: monospace;
@@ -54,14 +54,14 @@ h2 {
 
 hr {
   height: var(--line);
-  background: var(--text);
+  background: var(--primary);
   border: none;
   outline: none;
 }
 
 a {
-  color: var(--link);
-  text-decoration-color: var(--link);
+  color: var(--primary);
+  text-decoration-color: var(--primary);
   text-underline-position: from-font;
 }
 
