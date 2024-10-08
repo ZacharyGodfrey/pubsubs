@@ -63,10 +63,9 @@ h1, h2, h3, h4, h5, h6, th, strong {
   font-weight: bold;
 }
 
-h1, h2 { font-size: 1.75rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.25rem; }
-h5, h6 { font-size: 1rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
 
 a {
   color: var(--text);
@@ -74,25 +73,8 @@ a {
   text-underline-position: from-font;
 }
 
-h1 a, h2 a, h3 a, h4 a {
-  text-decoration-thickness: var(--line);
-}
-
 a:hover {
   color: var(--link);
-}
-
-em {
-  font-style: italic;
-}
-
-ul, ol {
-  list-style-position: inside;
-  padding-inline-start: 0;
-}
-
-ul:has(li > input:disabled) {
-  list-style-type: none;
 }
 
 hr {
