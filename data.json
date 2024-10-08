@@ -1,1 +1,47 @@
-{}
+{
+  "promoMsg": null,
+  "promoConditionsMsg": null,
+  "promoType": null,
+  "advancedNotice": null,
+  "specialPromotionDescription": null,
+  "srchAttri_partySize": null,
+  "formattedPartySize": null,
+  "srchAttri_leadTime": 30,
+  "formattedLeadTime": "Ready as soon as 30 minutes",
+  "srchAttr_cardDescription": "Our famous hand-breaded chicken tenders, with provolone, lettuce, and tomato.",
+  "coupon": [
+    "P3454143"
+  ],
+  "hasCoupon": false,
+  "isCatering": false,
+  "isCateringAddon": false,
+  "promoValidThruMsg": null,
+  "inStoreLocation": [],
+  "defaultModifierList": [],
+  "defaultModifierCalories": null,
+  "activationStatus": "O",
+  "priceLine": null,
+  "originalPriceLine": null,
+  "onSale": false,
+  "id": "d802cbbb-6c81-4fd3-a5ed-acd38895f4b2",
+  "baseProductId": "BMO-DSB-100011",
+  "imageUrls": {
+    "small": {
+      "a": "https://images.publixcdn.com/pct/images/products/90000/090355-75x75-A.jpg",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "large": {
+      "a": "https://images.publixcdn.com/pct/images/products/90000/090355-600x600-A.jpg",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "itemCode": 90355,
+  "shortDescription": "Hot Chicken Tenders and Choice of Cheese",
+  "storeNbr": 9999,
+  "title": "Publix Chicken Tender Sub",
+  "uiDisplayType": "CFG"
+}
