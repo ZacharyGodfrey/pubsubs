@@ -1,8 +1,9 @@
 import Mustache from 'mustache';
 
-import { emptyFolder, readFile, writeFile } from '../lib/file.js';
+import { emptyFolder, copy, readFile, writeFile } from '../lib/file.js';
 
 emptyFolder('dist');
+copy('data.json', 'dist/data.json');
 
 const template = readFile('src/assets/page.html');
 
