@@ -10,7 +10,10 @@ const value = 'BMO-DSB-100011';
 const url = `${baseUrl}?Id=${productId}&StoreNbr=${storeId}`;
 const response = await fetch(url).then(res => res.json());
 const data = response.find(x => x[key] === value);
-const json = JSON.stringify(data, null, 2);
+const json = JSON.stringify({
+  lastUpdated: new Date().toISOString(),
+  ...data
+}, null, 2);
 
 console.log(`URL: ${url}`);
 console.log(`JSON: ${json}`);
