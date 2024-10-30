@@ -38,7 +38,7 @@ body {
   padding: var(--padding);
 }
 
-h1, hr, h2, p, aside {
+h1, hr, h2, p, img, aside {
   margin-block: var(--margin);
 }
 
@@ -64,6 +64,15 @@ a {
   color: var(--primary);
   text-decoration-color: var(--primary);
   text-underline-position: from-font;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  border: var(--line) solid var(--primary);
+  border-radius: 0.25rem;
 }
 
 aside {
