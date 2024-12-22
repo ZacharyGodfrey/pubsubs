@@ -1,7 +1,7 @@
 {
-  "promoMsg": "Save $2.00 on Whole",
+  "promoMsg": null,
   "promoConditionsMsg": null,
-  "promoType": "Single",
+  "promoType": null,
   "advancedNotice": null,
   "specialPromotionDescription": null,
   "srchAttri_partySize": null,
@@ -38,7 +38,7 @@
   "activationStatus": "O",
   "priceLine": "Starts at $8.39",
   "originalPriceLine": null,
-  "onSale": true,
+  "onSale": false,
   "id": "d802cbbb-6c81-4fd3-a5ed-acd38895f4b2",
   "baseProductId": "BMO-DSB-100011",
   "imageUrls": {
@@ -60,5 +60,5 @@
   "storeNbr": 1210,
   "title": "Publix Chicken Tender Sub",
   "uiDisplayType": "CFG",
-  "lastUpdated": "2024-12-15T06:31:02.256Z"
+  "lastUpdated": "2024-12-22T06:28:23.827Z"
 }
